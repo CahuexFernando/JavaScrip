@@ -3,9 +3,19 @@ var saludo = "hola JavaScript"
 var edad = 26
 var unPoco = 1.5
 var siNo = true
-var seccion = "a"
+var seccion = 'a'
 
 //MOSTRAR DATOS EN CONSOLA
 console.log(saludo)
 
-var datoApellido = document.getElementById("favorito")
+//CONDICIONALES//
+
+edad = prompt("Edad")
+
+if (edad >= 18){
+   
+    alert("eres mayor de edad")
+    
+}else{
+    alert("eres menor de edad")
+}
